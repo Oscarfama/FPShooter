@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 8893
+  controlID: 253
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 298}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 8687
+  controlID: 230
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -216,7 +216,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 8894
+  controlID: 254
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -241,7 +241,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 8895
+  controlID: 255
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -432,10 +432,10 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 12}
-      m_SelectedIDs: 88fbffff
-      m_LastClickedID: -1144
-      m_ExpandedIDs: 54f6ffff70fbffff78fbffff92fbffffd4fbffff3017000048170000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: d4fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -701,20 +701,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Standard Assets/Standard Assets/ParticleSystems/Prefabs
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Standard Assets/Standard Assets/ParticleSystems/Prefabs
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\WDocs\Libraries\Documents\Oscar\FPS game
+  m_LastProjectPath: D:\WDocs\Libraries\Documents\Oscar\FPShooter
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 798}
-    m_SelectedIDs: 420f0000
-    m_LastClickedID: 3906
-    m_ExpandedIDs: 00000000ec0a00005a0b0000e80b00006e0c0000fe0c00002e0e0000b60e0000d00e0000d00f0000fa0f000080100000ae100000541100006611000074120000701300006014000032150000a2150000bc15000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: ec0a0000
+    m_LastClickedID: 2796
+    m_ExpandedIDs: 00000000ec0a00005a0b0000e80b00006e0c0000fe0c00002e0e0000b60e0000d00e0000d20f0000fc0f000082100000b0100000561100006811000078120000741300006614000038150000aa150000c415000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -742,7 +742,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ec0a00005a0b0000e80b00006e0c0000fe0c00002e0e0000b60e0000d00e0000d00f0000fa0f000080100000ae100000541100006611000074120000701300006014000032150000a2150000bc15000000ca9a3b
+    m_ExpandedIDs: 00000000ec0a00005a0b0000e80b00006e0c0000fe0c00002e0e0000b60e0000d00e0000d20f0000fc0f000082100000b0100000561100006811000078120000741300006614000038150000aa150000c415000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
