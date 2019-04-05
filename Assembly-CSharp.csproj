@@ -60,10 +60,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Gun.cs" />
-    <Compile Include="Assets\MiniMapScript.cs" />
-    <Compile Include="Assets\Scope.cs" />
-    <Compile Include="Assets\Target.cs" />
+    <Compile Include="Assets\Script\enemy.cs" />
+    <Compile Include="Assets\Script\Gun.cs" />
+    <Compile Include="Assets\Script\MiniMapScript.cs" />
+    <Compile Include="Assets\Script\Scope.cs" />
+    <Compile Include="Assets\Script\Target.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/WDocs/Libraries/Documents/Oscar/FPShooter/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
