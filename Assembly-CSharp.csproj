@@ -64,6 +64,7 @@
     <Compile Include="Assets\Script\Gun.cs" />
     <Compile Include="Assets\Script\MiniMapScript.cs" />
     <Compile Include="Assets\Script\Scope.cs" />
+    <Compile Include="Assets\Script\ScoreManager.cs" />
     <Compile Include="Assets\Script\Target.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/WDocs/Libraries/Documents/Oscar/FPShooter/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
