@@ -41,14 +41,9 @@ public class Gun : MonoBehaviour
             {
                 target.TakeDamage(damage);
             }
-            else
-            {
-                Debug.Log("hols nrrrrrrrrrrr");
-            }
             if (hit.rigidbody != null)
             {
-                hit.rigidbody.AddForce(-hit.normal * 1); // impactForce
-                Debug.Log("adding force");
+                //hit.rigidbody.AddForce(hit.normal); // impactForce
             }
             GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
             Destroy(impactGO, 2f);
