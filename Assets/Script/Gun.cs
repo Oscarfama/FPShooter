@@ -11,12 +11,14 @@ public class Gun : MonoBehaviour
     public Camera fpsCam;
     public ParticleSystem muzzleFlash;
     public GameObject impactEffect;
+    public AudioSource audio;
 
     private float nextTimetoFire = 0f;
 
     void Start()
     {
-        
+        audio = GetComponent<AudioSource>();
+        audio.enabled = false;
     }
 
     void Update()
@@ -29,6 +31,8 @@ public class Gun : MonoBehaviour
     }
     void Shoot()
     {
+        audio.enabled = true;
+        audio.Play();
         muzzleFlash.Play();
         RaycastHit hit;
        

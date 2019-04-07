@@ -19,15 +19,15 @@ public class Target : MonoBehaviour
     }
     void Die()
     {
+        ScoreManager.score += scoreValue;
         Destroy(gameObject);
     }
 
     IEnumerator KillEnemy()
     {
         if (animator != null)
-            animator.SetBool("isDead", true);
-        ScoreManager.score += scoreValue;
-        yield return new WaitForSeconds(3.0f);
+            animator.SetBool("isDeath", true);
+        yield return new WaitForSeconds(0.5f);
         Die();
     }
 }

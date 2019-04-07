@@ -61,7 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\enemy.cs" />
+    <Compile Include="Assets\Script\GameOverScript.cs" />
     <Compile Include="Assets\Script\Gun.cs" />
+    <Compile Include="Assets\Script\HealthManager.cs" />
     <Compile Include="Assets\Script\MiniMapScript.cs" />
     <Compile Include="Assets\Script\Scope.cs" />
     <Compile Include="Assets\Script\ScoreManager.cs" />
