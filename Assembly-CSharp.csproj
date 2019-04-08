@@ -80,6 +80,7 @@
     <None Include="Assets\Flooded_Grounds\Resources\TreeCreator\TreeCreatorLeavesOptimized.shader" />
     <None Include="Assets\Flooded_Grounds\Resources\TreeCreator\TreeCreatorBarkOptimized.shader" />
     <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_Triplanar_BumpSpec.shader" />
+    <None Include="Assets\ZombieHorrorPackageFree\Note.txt" />
     <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_Skybox_Rotating.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/WDocs/Libraries/Documents/Oscar/FPShooter/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
