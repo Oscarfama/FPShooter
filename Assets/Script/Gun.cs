@@ -7,7 +7,7 @@ public class Gun : MonoBehaviour
     public float damage = 10f;
     public float range = 100f;
     public float impactForce = 1f;
-    public float fireRate = 15f;
+    public float fireRate = 70f;
     public Camera fpsCam;
     public ParticleSystem muzzleFlash;
     public GameObject impactEffect;
@@ -18,20 +18,18 @@ public class Gun : MonoBehaviour
     void Start()
     {
         audio = GetComponent<AudioSource>();
-        audio.enabled = false;
     }
 
     void Update()
     {
         if (Input.GetButton("Fire1") && Time.time >= nextTimetoFire)
         {
-            nextTimetoFire = Time.time + 1f / fireRate;
+            nextTimetoFire = Time.time + 0.2f;  //    / fireRate
             Shoot();
         }
     }
     void Shoot()
     {
-        audio.enabled = true;
         audio.Play();
         muzzleFlash.Play();
         RaycastHit hit;

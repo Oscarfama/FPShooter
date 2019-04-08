@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
@@ -18,5 +19,10 @@ public class ScoreManager : MonoBehaviour
     void Update()
     {
         text.text = "Score: " + score;
+        if (score >= 50)
+        {
+            SceneManager.LoadScene(1);
+
+        }
     }
 }

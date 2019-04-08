@@ -18,7 +18,7 @@ public class enemy : MonoBehaviour
     void Start()
     {
         nm = GetComponent<NavMeshAgent>();
-        StartCoroutine(UseBrain());
+        StartCoroutine(Think());
     }
 
     void Update()
@@ -26,7 +26,7 @@ public class enemy : MonoBehaviour
 
     }
 
-    IEnumerator UseBrain()
+    IEnumerator Think()
     {
         while (true)
         {
@@ -72,7 +72,7 @@ public class enemy : MonoBehaviour
                     {
                         state = ZombieState.attack;
                         animator.SetBool("isChasing", false);
-                        animator.SetBool("isAttacking", false);
+                        animator.SetBool("isAttacking", true);
                     }
                     nm.SetDestination(transform.position);
                     break;
