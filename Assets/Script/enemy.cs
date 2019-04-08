@@ -54,13 +54,13 @@ public class enemy : MonoBehaviour
                     if (dist > zombieArea && animator != null)
                     {
                         state = ZombieState.idle;
-                        animator.SetBool("isChasing", false);
+                        animator.SetBool("Chasing", false);
                     }
                     else if (dist < AreaToAttack && animator != null)
                     {
                         sounds[0].Stop();
                         state = ZombieState.attack;
-                        animator.SetBool("isAttacking", true);
+                        animator.SetBool("Attack", true);
                     }
                     nm.SetDestination(target.position);
                     break;
@@ -72,14 +72,14 @@ public class enemy : MonoBehaviour
                     {
                         state = ZombieState.chasing;
                         sounds[1].Stop();
-                        animator.SetBool("isChasing", true);
-                        animator.SetBool("isAttacking", false);
+                        animator.SetBool("Chasing", true);
+                        animator.SetBool("Attack", false);
                     }
                     else if (dist < AreaToAttack && animator != null)
                     {
                         state = ZombieState.attack;
-                        animator.SetBool("isChasing", false);
-                        animator.SetBool("isAttacking", true);
+                        animator.SetBool("Chasing", false);
+                        animator.SetBool("Attack", true);
                     }
                     nm.SetDestination(transform.position);
                     break;
