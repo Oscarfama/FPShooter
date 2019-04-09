@@ -26,7 +26,7 @@ public class Target : MonoBehaviour
     IEnumerator KillEnemy()
     {
         if (animator != null)
-            animator.SetBool("Death", true);
+            animator.SetBool("Dead", true);
         yield return new WaitForSeconds(0.5f);
         Die();
     }
